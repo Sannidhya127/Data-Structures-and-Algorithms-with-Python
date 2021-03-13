@@ -28,6 +28,5 @@ def recursiveMethod(n):
         recursiveMethod(newN)
 
 
-# if __name__ == ' __main__':
-    # firstmethod()
+firstmethod()
 recursiveMethod(995)
