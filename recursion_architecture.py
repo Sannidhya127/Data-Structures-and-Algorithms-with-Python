@@ -28,6 +28,13 @@ def recursiveMethod(n):
         recursiveMethod(newN)
 
 
+def add(n1, n2):
+    sum = n1+n2
+    print(sum)
+
+
+add(74, 74)
+
 firstmethod()
 recursiveMethod(995)
 
