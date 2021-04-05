@@ -1,18 +1,18 @@
-def poweroftwo(n):
+def poweroftwoRecur(n):
     if n == 0:
         return 1
         # return "done"
     else:
         nth = n-1
-        power = poweroftwo(nth)
+        power = poweroftwoRecur(nth)
         # print(int(power) * 2)
         print(power*2)
 
 
-# poweroftwo(3)
+# poweroftwoRecur(3)
 
 
-def powerOftwoIter(n):
+def poweroftwoRecurIter(n):
     i = 0
     power = 1
     while i < n:
@@ -21,5 +21,4 @@ def powerOftwoIter(n):
     print(power)
 
 
-powerOftwoIter(8)
-
+poweroftwoRecurIter(8)
