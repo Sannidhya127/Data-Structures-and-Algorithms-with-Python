@@ -1,3 +1,1 @@
-
-# print(345 % 10)
-# pri
+DecimalToBinary(num//2),
