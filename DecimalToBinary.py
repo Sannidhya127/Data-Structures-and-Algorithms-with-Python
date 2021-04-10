@@ -9,8 +9,6 @@
 def DecimalToBinary(num):
     if num == 0:
         return ""
-    # elif num == 1:
-    #     print("It's 1!")
     else:
         modulus = divmod(num, 2)
         eula = num//2
@@ -18,5 +16,4 @@ def DecimalToBinary(num):
         return ""
 
 
-        # print(modulus[1])
 DecimalToBinary(53)
